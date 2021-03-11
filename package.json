@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://DOROSHYK.github.io/icecream-team-15",
+  "homepage": "https://goitacademy.github.io/parcel-project-template",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
-    "predeploy": "npm run build -- --public-url /icecream-team-15",
+    "predeploy": "npm run build -- --public-url /parcel-project-template/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
