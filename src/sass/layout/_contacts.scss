@@ -36,27 +36,21 @@
   }
 }
 .contacts-title {
+  min-width: 80px;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 186%;
-  /* or 22px */
+  line-height: 16px;
+  /* or 186% */
   background: #f0d1a5;
   border-radius: 4px;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  //   align-items: center;
-  //   text-align: center;
+  justify-content: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   @media screen and (min-width: 1280px) {
     font-size: 16px;
   }
-}
-.contacts-title {
-  padding-left: auto;
-  padding-right: auto;
 }
 .contacts-operatingmode-list {
   @media screen and(max-width:767px) {
