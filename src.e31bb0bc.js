@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\about\\milk-mobile.png":[["milk-mobile.52a90eaa.png","images/about/milk-mobile.png"],"images/about/milk-mobile.png"],"./..\\images\\about\\milk-mobile@2x.png":[["milk-mobile@2x.bbcdc1ae.png","images/about/milk-mobile@2x.png"],"images/about/milk-mobile@2x.png"],"./..\\images\\about\\milk-desktop.png":[["milk-desktop.5ae4b93b.png","images/about/milk-desktop.png"],"images/about/milk-desktop.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./..\\images\\about\\milk-mobile.png":[["milk-mobile.52a90eaa.png","images/about/milk-mobile.png"],"images/about/milk-mobile.png"],"./..\\images\\about\\milk-mobile@2x.png":[["milk-mobile@2x.bbcdc1ae.png","images/about/milk-mobile@2x.png"],"images/about/milk-mobile@2x.png"],"./..\\images\\about\\milk-desktop.png":[["milk-desktop.5ae4b93b.png","images/about/milk-desktop.png"],"images/about/milk-desktop.png"],"./..\\images\\reviews\\quote.png":[["quote.d1025c9c.png","images/reviews/quote.png"],"images/reviews/quote.png"],"./..\\images\\reviews\\dots.png":[["dots.cb52ebcc.png","images/reviews/dots.png"],"images/reviews/dots.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("./sass/main.scss");
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57359" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59647" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
