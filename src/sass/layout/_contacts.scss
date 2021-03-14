@@ -9,9 +9,6 @@
   @media screen and(min-width:768px) {
     display: flex;
   }
-  @media screen and(min-width:1280px) {
-    margin: -15px;
-  }
 }
 .contacts-itme {
   background: #ffffff;
@@ -147,7 +144,7 @@ display: inline-block;
 }
 .operatingmode-time {
   @include font(12px, 500, 22px);
-  /* identical to box height, or 186% */
+
   color: #ffa5ba;
   @media screen and(min-width:768px) {
     @include font(14px, 500, 24px);
@@ -158,7 +155,7 @@ display: inline-block;
 }
 .contacts-data-link {
   @include font(12px, 500, 18px);
-  /* or 150% */
+
   color: #907e82;
   @media screen and(min-width:768px) {
     @include font(14px, 500, 26px);
@@ -173,11 +170,12 @@ display: inline-block;
   flex-direction: column;
   align-items: center;
   padding-top: 54px;
-  // padding-bottom: 113px;
   @media screen and(min-width:768px) {
     flex-direction: row;
     justify-content: center;
-    //padding-bottom: 165px;
+  }
+  @media screen and(min-width:768px) {
+    padding-top: 80px;
   }
 }
 .btn {
@@ -203,6 +201,7 @@ display: inline-block;
     color: #ffffff;
     cursor: pointer;
     transform: scale(1.1);
+  outline: none;
   }
 }
 .btn:hover .location-icon,
@@ -211,7 +210,7 @@ display: inline-block;
 }
 @media screen and(max-width:767px) {
   .btn:first-child {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
 
@@ -222,7 +221,7 @@ display: inline-block;
 
     &:first-child {
       width: 191px;
-      margin-right: 15px;
+      margin-right: 40px;
       padding: 0 30px;
     }
     &:last-child {
