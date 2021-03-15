@@ -44,7 +44,7 @@ display: inline-block;
       margin-bottom: 20px;
     }
   }
-  &:nth-child(even) .contacts-title {
+  &:nth-child(even) .contacts-name {
     min-width: 130px;
     background-color: #c2e297;
     @media screen and(min-width:768px) {
@@ -52,7 +52,7 @@ display: inline-block;
     }
   }
 }
-.contacts-title {
+.contacts-name {
   min-width: 80px;
   font-style: normal;
   @include font(12px, 500, 22px);
